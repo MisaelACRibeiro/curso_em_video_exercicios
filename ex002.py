@@ -1,0 +1,10 @@
+a = input('Digite algo: ')
+print('O tipo desse valor é ', type(a))
+print('Só tem espaços? ', a.isspace())
+print('é um número? ', a.isnumeric())
+print('É alfabetico?', a.isalpha())
+print('É alfanumerico? ', a.isalnum())
+n1 = int(input('Digite um número: '))
+n2 = int(input('Digite um número: '))
+s = n1 + n2
+print('A soma entre {} e {} é iqual á {} '.format(n1, n2, s))

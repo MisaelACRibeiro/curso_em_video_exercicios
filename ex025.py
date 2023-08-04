@@ -1,0 +1,6 @@
+#nome = str(input('Qual é o seu nome? ')).strip()
+#print('Seu nome tem Silva? {}'.format('silva' in nome.lower()))
+frase = str(input('Digite uma frese: ')).strip().lower()
+print('A letra "A" aparece {} veses na frase.'.format(frase.count('a')))
+print('A prinmeiro letra "A" apareceu na posição {}'.format(frase.find('a')+1))
+print('A última letra "A" apareceu na posição {}.'.format(frase.rfind('a')+1))
